@@ -1,11 +1,13 @@
 * {
     margin:0;
     padding:0;
+    background-color: var(--back);
+    
 }
 
 :root {
     --navy: #1c2841;
-    --back: gray; 
+    --back: rgb(167, 165, 165); 
 
 }
 
