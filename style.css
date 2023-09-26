@@ -1,0 +1,18 @@
+:root {
+    --navy: #1c2841;
+    --back: gray; 
+
+}
+
+body { 
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+}
+
+
+.container {
+    display: flex;
+    color: var(--navy)
+}
