@@ -1,3 +1,8 @@
+* {
+    margin:0;
+    padding:0;
+}
+
 :root {
     --navy: #1c2841;
     --back: gray; 
@@ -15,4 +20,8 @@ body {
 .container {
     display: flex;
     color: var(--navy)
+}
+
+.headshot {
+    width: 100px
 }
