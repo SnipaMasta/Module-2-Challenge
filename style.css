@@ -2,28 +2,40 @@
     margin:0;
     padding:0;
     background-color: var(--back);
-    
+    color: var(--navy);
 }
 
 :root {
-    --navy: #1c2841;
-    --back: rgb(167, 165, 165); 
-
+    --navy: #ffffff;
+    --back: #1c2841; 
 }
 
+.navbar {
+    width: 100%;
+}
+
+.header {
+    position: relative;
+    display: block;
+}
+ul {
+    display: block;
+}
 body { 
     margin: 0px;
     padding: 0px;
     font-family: 'Courier New', Courier, monospace;
-    display: flex;
+    position: relative;
 }
 
 
 .container {
     display: flex;
-    color: var(--navy)
+    color: var(--navy);
+    border: black;
 }
 
 .headshot {
-    width: 100px
+    visibility:
+
 }
