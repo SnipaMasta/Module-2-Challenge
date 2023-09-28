@@ -1,3 +1,16 @@
+<!-- GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,19 +34,23 @@
         </header> 
 
 <main>
+    <section id="about">
     <article><h1>About Christoper Rice</h1>
         <p> To start off my bio with a bang: I used to be fully ambidextrous! That's right, in Pre-K and Kindergarten I would begin writing with my left-hand and, when it got tired, I would hand the pencil off to my right! This skill also really came in handy when I got a bit older and started playing the drums! Anyway, now that I've broken the ice a bit, let's get to the boring stuff. </p>
         <p> I'm 24 years old and, in terms of a career, I've tried my hand at a handful of different things. At one time I waited tables at a saloon near my childhood home, I later assisted my father laying down ceramic tile, and I even attempted being an undead zombie at Six Flags: Great Adventure! Clearly, I love to try everything I possibly can! Rounding out my accomplishments, I also have a BA in Communication from Seton Hall University in South Orange, NJ.</p>
         <p> For fun, I love to play videogames on PS5 and, occasionally, stream that on Twitch. Some of my favorite games on the platform include the Uncharted Series, the Batman Arkham games, and Insomniac's Spider-Man to name a few! In addition, I often find myself creating hats with my girlfriend's company logo on them. When I feeling like punishing myself I watch my favorite New York teams, including the Giants and Yankees, lose. Finally, somewhere in between all of that, you can find me at the computer trying my hardest to learn and practice coding!</p>
-            </article>
+            </article></section>
 
     <article><h1>Projects</h1>
-        <span class="project-bar">
-            
-        </span>
+        <section id="projects">
+         <div class="img-container">
+            <span>
+            <img src="./Untitled.jpg" alt="image of my module 1 challenge"></span>
+            <span> img </span>
+            <!-- <img src="./sandy-millar-yvpexJFLTSU-unsplash.jpg" alt="work in progress"> -->
 
 
-    </article>
+    </article></section>
 
 </main>
 </body>
