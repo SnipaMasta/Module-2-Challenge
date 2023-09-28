@@ -38,7 +38,7 @@ p {
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-left: 1em;
-    font-size: 1.25em;
+    font-size: 1.75em;
 }
 body { 
     margin: 0px;
@@ -54,11 +54,49 @@ body {
     display: flex;
 }
 
-.project-bar {
+.img-container {
     display: flex;
-    border: 5px solid white;
-    overflow: hidden;
-    object-fit: cover;
+    flex-wrap: wrap;
+
+}
+
+.big-project img {
+    width: 600px
+}
+
+.img-container div a {
+    width: 50%;
+}
+ .img-container img{
+    border-radius: 20%;
+    
+}
+
+.img-container div {
+    width:25%
+}
+
+.small-project{
+    width: 50%;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+}
+h3:hover {
+    font-size: 110%;
+}
+div {
+    /* border: 5px solid black; */
+}
+.small-project {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contact-container ul {
+    display: flex;
 }
 a {
     text-decoration: none;
