@@ -15,6 +15,8 @@
     justify-content: flex-start;
     background-color: rgb(138, 138, 138);
     padding: 25px;
+    font-size: 2.25em;
+    font-weight: bolder;
 }
 .navbar img {
     order: -1;
@@ -25,29 +27,39 @@
 .navbar ul li {
     align-items: center;
 }
-
+h1 {
+   font-size: 2em;
+   margin-top: 50px;
+   margin-bottom: 1px;
+   margin-left: 1em;
+}
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-left: 1em;
+    font-size: 1.25em;
+}
 body { 
     margin: 0px;
     padding: 0px;
-    /* position: relative; */
     background-color: #1c2841;
 }
 .navbar ul li {
     background-color: rgb(138, 138, 138);
-    margin: 20px
-    /* display: flex; */
+    margin: 30px
    
 }
 .navbar ul li {
     display: flex;
-    /* justify-content: center; */
-    /* display: inline-block; */
-    justify-content: space-evenly;
-    /* text-align: right; */
-    
 }
-
-.header {
-    /* display: flex; */
-
+a {
+    text-decoration: none;
 }
+a:hover {
+    background-color: #1c2841;
+    font-size: 110%;
+}
+img:hover {
+    cursor: pointer;
+} 
+
