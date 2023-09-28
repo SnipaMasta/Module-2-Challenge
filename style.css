@@ -23,7 +23,7 @@
     order: -1;
     border: 5px #1c2841 solid;
     border-radius: 50%;
-    width: 125px
+    width: 175px
 }
 .navbar ul li {
     align-items: center;
@@ -61,7 +61,7 @@ body {
 }
 
 .big-project img {
-    width: 600px
+    width: 750px
 }
 
 .img-container div a {
@@ -94,9 +94,16 @@ div {
     display: flex;
     flex-direction: row-reverse;
 }
-
+.contact-container {
+    background-color: #1c2841;
+}
 .contact-container ul {
     display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 3em;
+    font-weight: bolder;
+    padding: 30px
 }
 a {
     text-decoration: none;
