@@ -35,10 +35,13 @@ h1 {
    margin-left: 1em;
 }
 p {
+    display: flex;
+    flex-wrap: wrap;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-left: 1em;
     font-size: 1.75em;
+    max-width: 100%;
 }
 body { 
     margin: 0px;
@@ -60,6 +63,11 @@ body {
 
 }
 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .big-project img {
     width: 750px
 }
@@ -69,7 +77,9 @@ body {
 }
  .img-container img{
     border-radius: 20%;
-    
+    display: flex;
+    flexwrap: wrap;
+
 }
 
 .img-container div {
@@ -110,7 +120,7 @@ a {
 }
 a:hover {
     background-color: #1c2841;
-    font-size: 110%;
+    font-size: 105%;
 }
 img:hover {
     cursor: pointer;
@@ -118,3 +128,31 @@ img:hover {
 html {
     scroll-behavior: smooth;
 }
+.text-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .navbar ul li {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        
+      }   
+      .text-container p {
+        font-size: 1rem;
+        max-width: 50%;
+        margin-left: 0%;
+        margin-right: auto;
+        padding-left: 0rem;
+        padding-right: 0rem;
+
+    }}
+@media (max-width: 768px) {
+ }
