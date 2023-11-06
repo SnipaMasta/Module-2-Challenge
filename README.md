@@ -6,7 +6,9 @@ This project serves the purpose of showcasing my work both inside and outside th
 
 ## Installation
 
-N/A
+Simply go to this link to review my porfolio! 
+
+https://snipamasta.github.io/My-Sweet-Portfolio/
 
 ## Credits
 
